@@ -1,0 +1,107 @@
+.header {
+    color: #1BA098;
+    text-align: center;
+}
+
+.user-container {
+box-sizing: border-box;
+border: 1px solid #DEB992;
+border-spacing: 0;
+border-radius: 5px;
+margin: auto;
+position: relative;
+}
+
+.table-header {
+color: #ffffff;
+text-align: center;
+display: table-cell;
+box-sizing: inherit;
+}
+
+.user-data {
+border-top: 1px solid #DEB992;
+color: #DEB992;
+text-align: center;
+display: table-cell;
+box-sizing: inherit;
+}
+
+th, td {
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.user-button {
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #1BA098;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.error {
+    color: #bc0000;
+    padding-top: 1000px;
+}
+
+
+/* ---------page header with nav button ---------- */
+
+#graphic {
+    width: 60px;
+    margin-left: 30px;
+    float: left;
+}
+
+.announcement-page-header {
+    background-color: #051622;
+    height: 80px;
+    border-bottom: 2px solid #DEB992;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.fill-space {
+    flex-grow: 1;
+}
+
+button.mat-button {
+    background-color: #051622;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #0B2D45;
+    text-align: center;
+    padding-bottom: 7px;
+    width: 60px;
+    height: 60px;
+    color: white;
+    border: #0B2D45;
+    margin-right: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.admin{
+    color: #F24E1E;
+    font-size: 14pt;
+    font-family: 'Mulish';
+    text-transform: uppercase;
+    margin-left: 50px;
+
+  }
+
+/* ---------page header with nav button ---------- */

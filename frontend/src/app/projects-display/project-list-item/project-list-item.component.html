@@ -1,0 +1,20 @@
+<div class="project-item" [attr.id]="itemId">
+  <div class="name-row">
+    <div class="project-name">
+      <a [routerLink]="['/projects', itemId]" (click)="navigateToProject(itemId)">
+        <p>{{ project.name }}</p>
+      </a>
+    </div>
+    <div class="project-updated">
+      <p>Last edited X days ago</p>
+    </div>
+  </div>
+  <div class="summary-row">
+    <div class="project-summary">
+      <p>{{ project.description }}</p>
+    </div>
+    <div class="projects-edit">
+      <button mat-button (click)="openEditProjectDialog()">Edit</button>
+    </div>
+  </div>  
+</div>
